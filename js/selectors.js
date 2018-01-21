@@ -16,7 +16,7 @@ $(document).ready(function() {
   }
   
   function divSelector() {
-    return $('.class');
+    return $('.pics');
   }
   
   function firstListItem() {
