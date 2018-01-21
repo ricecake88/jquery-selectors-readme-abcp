@@ -12,7 +12,7 @@ $(document).ready(function() {
   }
   
   function ninjaBabySelector() {
-    return $('#ninja-baby');
+    return $('#baby-ninja');
   }
   
   function divSelector() {
