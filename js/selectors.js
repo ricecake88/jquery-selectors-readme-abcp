@@ -4,20 +4,17 @@ $(document).ready(function() {
 })
 
   function paragraphSelector() {
-    var p_tags = $('p');
-    return p_tags;
+    return $('p');
   }
   
   function lastImageSelector() {
-    var images = $('.pics img');
-    var lastImage = images.last();
-    return lastImage;
+    return $('.pics img:last');
   }
   
   function ninjaBabySelector() {
-    
+    return $('#ninja-baby');
   }
   
   function divSelector() {
-    
+    return $('.class');
   }
