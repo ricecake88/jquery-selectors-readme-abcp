@@ -20,5 +20,5 @@ $(document).ready(function() {
   }
   
   function firstListItem() {
-    return $('ul #pic-list li:first-child');
+    return $('ul li:first-child');
   }
